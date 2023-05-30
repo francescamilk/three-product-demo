@@ -27,8 +27,8 @@ const Home = () => {
           <motion.div className='home-content' {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className='head-text'>
-                LET&apos;S <br className='xl:block hidden' />
-                DO IT.
+                CUSTO <br className='xl:block hidden' />
+                MIZEit.
               </h1>
             </motion.div>
             <motion.div {...headContainerAnimation} className='flex flex-col gap-5'>
@@ -41,7 +41,7 @@ const Home = () => {
                 type='filled'
                 title='Customize It'
                 handleClick={() => state.intro = false}
-                customStyles='w-fix px-4 py-2.5 font-bold text-sm'
+                customStyles='w-fix px-4 py-2.5 font-bold text-sm max-w-md'
               />
             </motion.div>
           </motion.div>
